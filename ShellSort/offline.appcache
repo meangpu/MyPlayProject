@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1572014017
+#1572531133
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -30,6 +30,11 @@ images/made_by-sheet0.png
 images/song-sheet0.png
 images/gun-sheet0.png
 images/bullet-sheet0.png
+images/howtoplay.png
+images/more.png
+images/pseudocode-sheet0.png
+images/sprite-sheet0.png
+images/worstcase-sheet0.png
 media/ndiv2.m4a
 media/ndiv2.ogg
 media/reset.m4a
@@ -54,5 +59,6 @@ icon-114.png
 icon-128.png
 icon-256.png
 loading-logo.png
+datastructure.mp4
 NETWORK:
 *
