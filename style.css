@@ -1,23 +1,22 @@
 .wrapper {
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     width: 80%;
     margin: 0 auto;
     position: relative;
 }
 
-
-
-h1{
-
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 60px
 }
 
 h3 {
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 30px
 }
-
 
 img {
     opacity: 1;
@@ -26,57 +25,17 @@ img {
     height: auto;
     transition: .5s ease;
 }
+
+img.rounded-corners {
+    border-radius: 30px;
+}
+
 body {
+    font-family: 'Kanit', sans-serif;
     margin: 0;
     padding: 0;
     background: #2f3640;
 }
-
-
-.black {
-    font-family: DilleniaUPC;
-    font-weight:bold;
-    color: #dcdde1;
-}
-
-
-.black2 {
-    font-family: DilleniaUPC;
-    color: #7f8c8d;
-}
-
-
-.eyes {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-}
-
-.eye {
-    width: 240px;
-    height: 120px;
-    background: #fff;
-    display: inline-block;
-    margin: 40px;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-}
-
-.ball {
-    width: 40px;
-    height: 40px;
-    background: #000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    border: 15px solid #333;
-}
-
 
 .overlay {
     opacity: 0
@@ -84,20 +43,20 @@ body {
 
 .wrapper:hover img {
     opacity: .2;
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
 .wrapper:hover .overlay {
     opacity: 1
 }
 
-
 .container {
-    width: 95%;
+    width: 1200px;
+    overflow: hidden;
     height: auto;
-    margin: 0 auto;
+    margin: 4px auto;
+    padding: 5px;
 }
-
 
 table,
 tr,
@@ -105,13 +64,11 @@ td {
     border: black solid 1px;
 }
 
-
 .row {
     display: grid;
-    grid-template-columns: auto auto auto auto auto
+    grid-template-columns: auto auto auto auto auto auto
 }
 
-
 .card img {
-    width: 240px;
+    width: 180px;
 }
