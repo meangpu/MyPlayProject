@@ -18,7 +18,6 @@ h1{
   }
   
   div.gallery {
-    background-color: #174618;
     margin: 10px;
     float: left;
     width: 180px;
@@ -40,19 +39,19 @@ h1{
   div.desc {
     font-family: 'Calibri';
     color: #ccc;
-    padding: 8px;
     text-align: center;
   }
   
   .flex-container {
-    background-color: #4CAF50;
-    width: 75vw;
-    display: flex;
+    margin: auto;
+    width: 60%;
     height: 75vh;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+
     
   }
     
