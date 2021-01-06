@@ -1,74 +1,98 @@
-.wrapper {
-    font-family: 'Kanit', sans-serif;
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-}
+body {
+    margin: 0;
+    background: #2f3640;
+  }
 
-h1 {
+h1{
+    font-family: 'Calibri';
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+  b{
     color: rgb(255, 255, 255);
-    font-family: 'Kanit', sans-serif;
-    text-align: center;
-    font-size: 60px
-}
+    font-size: 30px;
+  }
+  
+  div.gallery {
+    background-color: #174618;
+    margin: 10px;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery img {
 
-h3 {
-    font-family: 'Kanit', sans-serif;
-    text-align: center;
-    font-size: 30px
-}
-
-img {
-    opacity: 1;
-    display: block;
+    border-radius: 30px;
     width: 100%;
     height: auto;
-    transition: .5s ease;
-}
-
-img.rounded-corners {
-    border-radius: 30px;
-}
-
-body {
-    font-family: 'Kanit', sans-serif;
+    transition: .4s ease;
+  }
+  
+  div.gallery img:hover {
+    opacity: .6;
+    transform: scale(1.05);
+  }
+  
+  div.desc {
+    font-family: 'Calibri';
+    color: #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .flex-container {
+    background-color: #4CAF50;
+    width: 75vw;
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+    
+  .flex-container > div {
+    margin: 10px;
+  }
+  
+  
+  ul {
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 25px;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    background: #2f3640;
-}
-
-.overlay {
-    opacity: 0
-}
-
-.wrapper:hover img {
-    opacity: .2;
-    transform: scale(1.08);
-}
-
-.wrapper:hover .overlay {
-    opacity: 1
-}
-
-.container {
-    width: 1200px;
     overflow: hidden;
-    height: auto;
-    margin: 4px auto;
-    padding: 5px;
-}
+    background-color: rgb(15, 15, 15);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
 
-table,
-tr,
-td {
-    border: black solid 1px;
-}
+  .center{
+    text-align: center;
 
-.row {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto
-}
-
-.card img {
-    width: 180px;
-}
+  }
