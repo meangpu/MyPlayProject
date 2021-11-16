@@ -1,0 +1,32 @@
+﻿{
+	"version": 1637103464,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/g_solidground.png",
+		"images/t-sheet0.png",
+		"images/t2-sheet0.png",
+		"images/kanit-sheet0.png",
+		"images/thai-sheet0.png",
+		"images/eng-sheet0.png",
+		"images/bg.png",
+		"images/glass.png",
+		"images/med-sheet0.png",
+		"images/hard-sheet0.png",
+		"images/easy-sheet0.png",
+		"images/9patch.png",
+		"images/questionbg.png",
+		"images/sprite-sheet0.png",
+		"images/b_go-sheet0.png",
+		"images/b_back-sheet0.png",
+		"images/realback-sheet0.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
