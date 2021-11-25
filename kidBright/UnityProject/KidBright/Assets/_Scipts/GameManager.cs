@@ -83,6 +83,7 @@ public class GameManager : MonoBehaviour
                 leftTie = 0;
                 rightTie = 0;
                 gameState = 2;
+                backButton.SetActive(true);
             }
             resetButColor();
         }
@@ -118,6 +119,7 @@ public class GameManager : MonoBehaviour
                 leftTie = 0;
                 rightTie = 0;
                 gameState = 2;
+                backButton.SetActive(true);
             }
             resetButColor();
         }
@@ -141,7 +143,7 @@ public class GameManager : MonoBehaviour
 
     void resetButColor()
     {
-        backButton.SetActive(true);
+        
         leftBut.color = leftColOld;
         rightBut.color = rightColOld;
         leftText.SetText("LEFT");
