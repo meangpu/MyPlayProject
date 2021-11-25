@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | KidBright</title>
+    <title>KidBright[128-7|647-3]</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -22,18 +22,18 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">KidBright</div>
+        <div id="unity-build-title">FastCalculation</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/kidBright.loader.js";
+      var loaderUrl = buildUrl + "/ex.loader.js";
       var config = {
-        dataUrl: buildUrl + "/kidBright.data",
-        frameworkUrl: buildUrl + "/kidBright.framework.js",
-        codeUrl: buildUrl + "/kidBright.wasm",
+        dataUrl: buildUrl + "/ex.data",
+        frameworkUrl: buildUrl + "/ex.framework.js",
+        codeUrl: buildUrl + "/ex.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "DME",
         productName: "KidBright",
         productVersion: "1.0",
       };
@@ -62,8 +62,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
